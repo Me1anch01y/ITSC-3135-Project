@@ -4,11 +4,12 @@
 
 .grid {
   display: grid;
-  grid-template-columns: auto auto;
-  width: 80%;
-  margin: 0 auto;
-  gap: 1em 5%;
-  min-width: fit-content
+  grid-template-columns: 40% 40%;
+  width: 85%;
+  justify-content: center;
+  gap: 2% 10%;
+  min-width: fit-content;
+  margin: auto;
 }
 
 .grid-item {
@@ -18,11 +19,18 @@
 }
 
 .headshot {
-  width: 75%;
+  width: 60%;
 }
 
 .role {
   font-style: oblique;
   font-variant: small-caps;
   font-size: initial;
+}
+
+section {
+  margin: 0 auto;
+  overflow: scroll;
+  width: 80%;
+  height: 50vh;
 }
