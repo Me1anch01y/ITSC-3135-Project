@@ -1,0 +1,28 @@
+* {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  margin: 0 auto;
+  gap: 1em 5%;
+  min-width: fit-content
+}
+
+.grid-item {
+  border: thick ridge var(--accent-dark-color);
+  font-weight: bold;
+  font-size: large;
+}
+
+.headshot {
+  width: 75%;
+}
+
+.role {
+  font-style: oblique;
+  font-variant: small-caps;
+  font-size: initial;
+}
