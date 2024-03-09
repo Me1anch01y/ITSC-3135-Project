@@ -1,0 +1,84 @@
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.desc {
+  color: var(--accent-dark-color);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16pt;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1em;
+
+  margin-bottom: 8%;
+}
+
+section img {
+  max-width: 90%;
+}
+
+section div {
+  flex-basis: 38%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+p {
+font-size: 2.2vw;
+}
+
+.graduates {
+  text-align: center;
+}
+
+.graduates h3 {
+  font-weight: normal;
+}
+
+.collage {
+  position: relative;
+  height: 800px;
+}
+.collage img {
+  max-height: 500px;
+  position: absolute;
+}
+
+#cobbins {
+  height: 35%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#bello {
+  height: 50%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#adams {
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#bullock {
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#brydie {
+  height: 50%;
+  top: 250px;
+  left: 35%;
+  z-index: -1;
+}

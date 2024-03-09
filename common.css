@@ -23,6 +23,7 @@ body {
   background-color: var(--accent-dark-color);
   position: sticky;
   top: 0;
+  z-index: 8;
 }
 
 #navbar :first-child {
@@ -86,4 +87,8 @@ footer li + li {
 
 .fa:hover {
   transform: scale(1.1);
+}
+
+h1 {
+  font-size: 5vw;
 }
