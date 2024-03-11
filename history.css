@@ -15,6 +15,10 @@ section h2{
   font-variant: small-caps;
 }
 
+section img {
+  width: 60%;
+}
+
 #chapter {
   background-color: var(--accent-color);
   border-radius: 5rem;
