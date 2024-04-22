@@ -29,7 +29,7 @@ section div {
 }
 
 p {
-font-size: 2.2vw;
+  font-size: 2.2vw;
 }
 
 .graduates {
@@ -53,32 +53,32 @@ font-size: 2.2vw;
   height: 35%;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 2;
 }
 
 #bello {
   height: 50%;
   top: 0;
   right: 0;
-  z-index: -1;
+  z-index: 2;
 }
 
 #adams {
   height: 50%;
   bottom: 0;
   left: 0;
-  z-index: -1;
+  z-index: 2;
 }
 
 #bullock {
   bottom: 0;
   right: 0;
-  z-index: -1;
+  z-index: 2;
 }
 
 #brydie {
   height: 50%;
   top: 250px;
   left: 35%;
-  z-index: -2;
+  z-index: 1;
 }
