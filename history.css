@@ -4,14 +4,14 @@ main {
   margin: auto;
 }
 
-section{
+section {
   padding: 1rem;
   margin: 2rem;
   border-radius: 5rem;
   font-style: oblique;
 }
 
-section h2{
+section h2 {
   font-variant: small-caps;
 }
 
@@ -30,10 +30,21 @@ section img {
 }
 
 #fraternity ul {
-  list-style:upper-roman;
+  list-style: upper-roman;
   list-style-position: inside;
-  text-align:start;
+  text-align: start;
+}
 
+.ui-accordion-header {
+  background-color: var(--accent-dark-color);
+  color: var(--accent-color);
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.header-active {
+  border-radius: 30px;
 }
 
 a.button {
