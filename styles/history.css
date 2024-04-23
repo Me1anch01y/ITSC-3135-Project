@@ -9,10 +9,12 @@ section {
   margin: 2rem;
   border-radius: 5rem;
   font-style: oblique;
+  transition: all 0.5s;
 }
 
 section h2 {
   font-variant: small-caps;
+  transition: all 0.5s;
 }
 
 section img {
@@ -43,8 +45,18 @@ section img {
   cursor: pointer;
 }
 
-.header-active {
-  border-radius: 30px;
+.ui-accordion-content {
+  background-color: var(--accent-color);
+}
+
+.ui-accordion-header-active {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.ui-accordion-content-active {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 a.button {
@@ -52,14 +64,14 @@ a.button {
   margin: 1rem;
   border: 3px solid black;
   border-radius: 10px;
-  color: black;
-  background-color: var(--accent-color);
+  color: var(--accent-color);
+  background-color: var(--accent-dark-color);
   text-decoration: none;
   box-shadow: 5px 5px 8px;
 }
 
 a.button:hover {
-  color: var(--accent-color);
-  background-color: var(--accent-dark-color);
+  color: black;
+  background-color: var(--accent-color);
   font-weight: bold;
 }
