@@ -17,44 +17,18 @@ section h2 {
   transition: all 0.5s;
 }
 
-section img {
-  width: 60%;
-}
-
-#chapter {
-  background-color: var(--accent-color);
-  border-radius: 5rem;
-}
-
-#fraternity {
-  background-color: var(--accent-dark-color);
-  color: var(--accent-color);
-}
-
-#fraternity ul {
-  list-style: upper-roman;
-  list-style-position: inside;
-  text-align: start;
-}
-
 .ui-accordion-header {
   background-color: var(--accent-dark-color);
   color: var(--accent-color);
   padding: 15px;
   border-bottom: 1px solid #ccc;
   cursor: pointer;
-}
-
-.ui-accordion-content {
-  background-color: var(--accent-color);
-}
-
-.ui-accordion-header-active {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.ui-accordion-content-active {
+.ui-accordion-content {
+  background-color: var(--accent-color);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -72,6 +46,5 @@ a.button {
 
 a.button:hover {
   color: black;
-  background-color: var(--accent-color);
   font-weight: bold;
 }

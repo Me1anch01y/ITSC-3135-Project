@@ -6,19 +6,19 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="./styles/common.css">
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../styles/history.css" />
-    <link rel="icon" type="image/x-icon" href="../images/ZD.jpg" />
+    <link rel="stylesheet" href="./styles/history.css" />
+    <link rel="icon" type="image/x-icon" href="./images/ZD.jpg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="../scripts/history.js"></script>
+    <script src="./scripts/history.js"></script>
   </head>
   <body>
     <header id="navbar">
-      <a href="./index.html"><img src="../images/ZD.jpg" alt="Zeta Delta Logo" id="logo"></a>
+      <a href="./index.html"><img src="./images/ZD.jpg" alt="Zeta Delta Logo" id="logo"></a>
       <nav id="links">
         <ul>
           <li><a href="./index.html">Home</a></li>
@@ -30,13 +30,13 @@
     </header>
     <main>
       <h1>History</h1>
-      <section id="chapter">
-        <h2>Zeta Delta Chapter</h2>
+      <div id="accordion">
+        <h2 class="accordion-header">Zeta Delta Chapter</h2>
         
-        <div>
+        <div class="accordion-content">
           <div>
-          <img src="../images/ZD-history.jpg" alt="" />
-        </div>
+          <img src="./images/ZD-history.jpg" alt="" />
+          </div>
           <p>
             The Zeta Delta Chapter of Kappa Alpha Psi, Fraternity Inc. was
             chartered on August 1, 1970 on the campus of UNC Charlotte. Being
@@ -47,10 +47,8 @@
             philanthropy and social events.
           </p>
         </div>
-      </section>
-      <section id="fraternity">
-        <h2>The Fraternity</h2>
-        <div>
+        <h2 class="accordion-header">The Fraternity</h2>
+        <div class="accordion-content">
           <p>
             Kappa Alpha Psi was founded on January 5, 1911 at Indiana University
             in Bloomington, Indiana. The 10 founders of Kappa Alpha Psi are Elder
@@ -85,7 +83,7 @@
             <a href="http://kappaalphapsi.org/" target="_blank" class="button" id="button">Learn More</a>
           </div>
         </div>
-      </section>
+      </div>
     </main>
     <footer>
       <h2>Check us out on Social Media!</h2>
