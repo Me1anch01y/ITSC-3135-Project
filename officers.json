@@ -3,66 +3,79 @@
     {
       "name": "Kenan Moore",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Polemarch"
     },
     {
       "name": "Jamari Tyson",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Vice Polemarch"
     },
     {
       "name": "Anthony Carter",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Historian"
     },
     {
       "name": "Cameron Blount",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Keeper of Records"
     },
     {
       "name": "Christopher Dudley",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Assistant Keeper of Records"
     },
     {
       "name": "Kristopher Seberry",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Assistant Keeper of Records"
     },
     {
       "name": "Joshua Reid",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Strategus"
     },
     {
       "name": "James Clyburn",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Lieutenant Strategus"
     },
     {
       "name": "Nicholas Obuekwe",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Director of Guide Right"
     },
     {
       "name": "Bradley Foulks",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Reporter"
     },
     {
       "name": "Malik Robinson",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Board Member #1"
     },
     {
       "name": "Briston Bennet",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Director of Reclamation"
     },
     {
       "name": "Kirnelious Pettus",
       "image": "./images/placeholder.png",
+      "img_alt": "Empty Image",
       "role": "Board Member #3"
     }
   ]
