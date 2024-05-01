@@ -1,0 +1,69 @@
+{
+  "officers": [
+    {
+      "name": "Kenan Moore",
+      "image": "./images/placeholder.png",
+      "role": "Polemarch"
+    },
+    {
+      "name": "Jamari Tyson",
+      "image": "./images/placeholder.png",
+      "role": "Vice Polemarch"
+    },
+    {
+      "name": "Anthony Carter",
+      "image": "./images/placeholder.png",
+      "role": "Historian"
+    },
+    {
+      "name": "Cameron Blount",
+      "image": "./images/placeholder.png",
+      "role": "Keeper of Records"
+    },
+    {
+      "name": "Christopher Dudley",
+      "image": "./images/placeholder.png",
+      "role": "Assistant Keeper of Records"
+    },
+    {
+      "name": "Kristopher Seberry",
+      "image": "./images/placeholder.png",
+      "role": "Assistant Keeper of Records"
+    },
+    {
+      "name": "Joshua Reid",
+      "image": "./images/placeholder.png",
+      "role": "Strategus"
+    },
+    {
+      "name": "James Clyburn",
+      "image": "./images/placeholder.png",
+      "role": "Lieutenant Strategus"
+    },
+    {
+      "name": "Nicholas Obuekwe",
+      "image": "./images/placeholder.png",
+      "role": "Director of Guide Right"
+    },
+    {
+      "name": "Bradley Foulks",
+      "image": "./images/placeholder.png",
+      "role": "Reporter"
+    },
+    {
+      "name": "Malik Robinson",
+      "image": "./images/placeholder.png",
+      "role": "Board Member #1"
+    },
+    {
+      "name": "Briston Bennet",
+      "image": "./images/placeholder.png",
+      "role": "Director of Reclamation"
+    },
+    {
+      "name": "Kirnelious Pettus",
+      "image": "./images/placeholder.png",
+      "role": "Board Member #3"
+    }
+  ]
+}
