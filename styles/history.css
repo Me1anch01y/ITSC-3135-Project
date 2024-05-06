@@ -1,20 +1,12 @@
 main {
   text-align: center;
-  width: 80%;
+  width: 80vw;
   margin: auto;
 }
 
-section {
-  padding: 1rem;
-  margin: 2rem;
-  border-radius: 5rem;
-  font-style: oblique;
-  transition: all 0.5s;
-}
-
-section h2 {
-  font-variant: small-caps;
-  transition: all 0.5s;
+.slick-prev::before,
+.slick-next::before {
+  color: black; /* Change the color to your desired color */
 }
 
 .ui-accordion-header {
@@ -31,6 +23,8 @@ section h2 {
   background-color: var(--accent-color);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  max-width: 80vw;
+  padding: 5%;
 }
 
 a.button {

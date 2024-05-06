@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function () {
   $("#accordion").accordion({
     collapsible: true, // Allow all sections to be collapsed
     active: false, // Initially, no section is active
@@ -9,7 +9,7 @@ $(function () {
           {
             scrollTop: ui.newPanel.offset().top - 150,
           },
-          "slow"
+          "normal"
         );
       }
     },
@@ -17,5 +17,25 @@ $(function () {
       duration: 950, // Set animation duration in milliseconds
       easing: "easeInOutCubic", // Set easing function
     },
+    // create: function (event, ui) {
+    //   $(".founders").slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     arrows: true,
+    //     dots: true,
+    //   });
+    // },
+    // beforeActivate: function (event, ui) {
+    //   // Show the slick-carousel before it's activated
+    //   if (ui.newPanel.hasClass("founders")) {
+    //     $(".founders-wrapper").show();
+    //   }
+    // },
+  });
+  $("#founders").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: true,
   });
 });

@@ -3,24 +3,20 @@
 }
 
 main {
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
-}
-
-.officers-grid {
-  transform: translate(20vw 0);
-  max-width: 100vw;
 }
 
 .grid-item {
   border: thick ridge var(--accent-dark-color);
   font-weight: bold;
   font-size: large;
+  min-width: fit-content;
 }
 
 .headshot {
-  margin: 1rem auto;
-  border-radius: 30px;
+  margin: 0 auto;
+  border-radius: 5rem;
 }
 
 .slick-prev::before,
@@ -30,7 +26,7 @@ main {
 
 .slick-slide {
   padding: 0;
-  margin: 1rem;
+  margin: 0 1rem;
   border-radius: 5rem;
   font-style: oblique;
 }
