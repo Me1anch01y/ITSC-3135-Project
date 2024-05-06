@@ -4,6 +4,17 @@
   <head>
     <title>Current Brothers</title>
     <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/current-brothers.css" />
     <link rel="icon" type="image/x-icon" href="./images/ZD.jpg" />
@@ -11,6 +22,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="./scripts/current-brothers.js"></script>
   </head>
   <body>
     <header id="navbar">
@@ -33,220 +45,9 @@
     <main>
       <h1>Current Brothers</h1>
       <h2>Officers</h2>
-      <section id="officers">
-        <div class="grid">
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Kenan Moore</p>
-            <p class="role">Polemarch</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Jamari Tyson</p>
-            <p class="role">Vice Polemarch</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Anthony Carter</p>
-            <p class="role">Historian</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Cameron Blount</p>
-            <p class="role">Keeper of Records</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Christopher Dudley</p>
-            <p class="role">Assistant Keeper of Records</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Kristopher Seberry</p>
-            <p class="role">Assistant Keeper of Records</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Joshua Reid</p>
-            <p class="role">Strategus</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>James Clyburn</p>
-            <p class="role">Lieutenant Strategus</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Nicholas Obuekwe</p>
-            <p class="role">Director of Guide Right</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Bradley Foulks</p>
-            <p class="role">Reporter</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Briston Bennet</p>
-            <p class="role">Director of Reclamation</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Malik Robinson</p>
-            <p class="role">Board Member #1</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Kirnelious Pettus</p>
-            <p class="role">Board Member #3</p>
-          </div>
-        </div>
-      </section>
-      <h2>Members</h2>
-      <section id="members">
-        <div class="grid">
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Brendan Norfleet</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Damion Davis</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Jayden White</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Jaylon Ricks</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Jonathan Smith</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Jordan Teasley</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Osi Obasuyi</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Reginald Matherson</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Robert Cochran</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Samuel Boatang</p>
-          </div>
-          <div class="grid-item">
-            <img
-              src="./images/placeholder.png"
-              alt="Empty photo"
-              class="headshot"
-            />
-            <p>Tommie Neely</p>
-          </div>
-        </div>
-      </section>
+      <div id="officers">
+        <div id="officers-grid" class="slick-carousel"></div>
+      </div>
     </main>
     <footer>
       <h2>Check us out on Social Media!</h2>
